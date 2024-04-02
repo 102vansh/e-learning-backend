@@ -1,0 +1,97 @@
+2024-04-02T08:17:19.811Z error: uncaughtException: fetch failed
+TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:14294:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T08:20:12.502Z error: uncaughtException: fetch failed
+TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:14294:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T08:39:24.285Z error: uncaughtException: User is all ready registered
+Error: User is all ready registered
+    at exports.registeruser (C:\Users\idea\OneDrive\e-learningmern\backend\controller\user.controller.js:21:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T08:40:05.547Z error: uncaughtException: fetch failed
+TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:14294:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T11:19:16.704Z error: uncaughtException: user.getresettoken is not a function
+TypeError: user.getresettoken is not a function
+    at exports.forgotpassword (C:\Users\idea\OneDrive\e-learningmern\backend\controller\user.controller.js:235:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T11:20:52.090Z error: uncaughtException: 500
+Error: 500
+    at exports.forgotpassword (C:\Users\idea\OneDrive\e-learningmern\backend\controller\user.controller.js:248:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T11:22:45.623Z error: uncaughtException: 500
+Error: 500
+    at exports.forgotpassword (C:\Users\idea\OneDrive\e-learningmern\backend\controller\user.controller.js:248:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T11:22:58.149Z error: uncaughtException: user not found
+Error: user not found
+    at exports.forgotpassword (C:\Users\idea\OneDrive\e-learningmern\backend\controller\user.controller.js:233:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T11:23:09.991Z error: uncaughtException: 500
+Error: 500
+    at exports.forgotpassword (C:\Users\idea\OneDrive\e-learningmern\backend\controller\user.controller.js:248:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T11:52:24.241Z error: uncaughtException: crypto.createHash(...).update(...).digesr is not a function
+TypeError: crypto.createHash(...).update(...).digesr is not a function
+    at exports.changepassword (C:\Users\idea\OneDrive\e-learningmern\backend\controller\user.controller.js:265:69)
+    at Layer.handle [as handle_request] (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:280:10)
+2024-04-02T11:54:13.123Z error: uncaughtException: token is not valid
+Error: token is not valid
+    at exports.changepassword (C:\Users\idea\OneDrive\e-learningmern\backend\controller\user.controller.js:274:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T11:55:09.155Z error: uncaughtException: 500
+Error: 500
+    at exports.forgotpassword (C:\Users\idea\OneDrive\e-learningmern\backend\controller\user.controller.js:250:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T12:05:03.432Z error: uncaughtException: User is all ready registered
+Error: User is all ready registered
+    at exports.registeruser (C:\Users\idea\OneDrive\e-learningmern\backend\controller\user.controller.js:22:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T12:05:10.512Z error: uncaughtException: User is all ready registered
+Error: User is all ready registered
+    at exports.registeruser (C:\Users\idea\OneDrive\e-learningmern\backend\controller\user.controller.js:22:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T12:59:30.206Z error: uncaughtException: avatar is not defined
+ReferenceError: avatar is not defined
+    at exports.updateavatar (C:\Users\idea\OneDrive\e-learningmern\backend\controller\user.controller.js:300:69)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T13:00:48.330Z error: uncaughtException: User validation failed: avatar: Cast to Object failed for value "https://res.cloudinary.com/dysapzsm4/image/upload/v1712062848/lcg5x2rizvmkfslzqdff.webp" (type string) at path "avatar"
+ValidationError: User validation failed: avatar: Cast to Object failed for value "https://res.cloudinary.com/dysapzsm4/image/upload/v1712062848/lcg5x2rizvmkfslzqdff.webp" (type string) at path "avatar"
+    at Document.invalidate (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\document.js:3200:32)
+    at model.$set (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\document.js:1219:10)
+    at model.set [as avatar] (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\helpers\document\compile.js:189:13)
+    at exports.updateavatar (C:\Users\idea\OneDrive\e-learningmern\backend\controller\user.controller.js:311:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T13:02:29.504Z error: uncaughtException: User validation failed: avatar: Cast to Object failed for value "http://res.cloudinary.com/dysapzsm4/image/upload/v1712062949/lccyoxymwnspbz1knyvs.webp" (type string) at path "avatar"
+ValidationError: User validation failed: avatar: Cast to Object failed for value "http://res.cloudinary.com/dysapzsm4/image/upload/v1712062949/lccyoxymwnspbz1knyvs.webp" (type string) at path "avatar"
+    at Document.invalidate (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\document.js:3200:32)
+    at model.$set (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\document.js:1219:10)
+    at model.set [as avatar] (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\helpers\document\compile.js:189:13)
+    at exports.updateavatar (C:\Users\idea\OneDrive\e-learningmern\backend\controller\user.controller.js:311:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T13:03:55.130Z error: uncaughtException: User validation failed: avatar: Cast to Object failed for value "http://res.cloudinary.com/dysapzsm4/image/upload/v1712063034/ziudxuzmgergiq9txgmv.webp" (type string) at path "avatar"
+ValidationError: User validation failed: avatar: Cast to Object failed for value "http://res.cloudinary.com/dysapzsm4/image/upload/v1712063034/ziudxuzmgergiq9txgmv.webp" (type string) at path "avatar"
+    at Document.invalidate (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\document.js:3200:32)
+    at model.$set (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\document.js:1219:10)
+    at model.set [as avatar] (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\helpers\document\compile.js:189:13)
+    at exports.updateavatar (C:\Users\idea\OneDrive\e-learningmern\backend\controller\user.controller.js:311:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T13:07:53.975Z error: uncaughtException: Cannot destructure property 'avatar' of 'req.files[0]' as it is undefined.
+TypeError: Cannot destructure property 'avatar' of 'req.files[0]' as it is undefined.
+    at exports.updateavatar (C:\Users\idea\OneDrive\e-learningmern\backend\controller\user.controller.js:298:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-02T14:12:55.153Z error: uncaughtException: viedeos is not defined
+ReferenceError: viedeos is not defined
+    at exports.addlecture (C:\Users\idea\OneDrive\e-learningmern\backend\controller\course.controller.js:108:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
