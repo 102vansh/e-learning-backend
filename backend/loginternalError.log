@@ -229,3 +229,27 @@ TypeError: Cannot read properties of undefined (reading 'includes')
     at Proxy.some (<anonymous>)
     at exports.enrollCourse (C:\Users\idea\OneDrive\e-learningmern\backend\controller\course.controller.js:190:26)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-03T18:53:16.275Z error: uncaughtException: token is not found
+Error: token is not found
+    at exports.isauthenticated (C:\Users\idea\OneDrive\e-learningmern\backend\middleware\auth.js:10:17)
+    at Layer.handle [as handle_request] (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:280:10)
+2024-04-03T18:53:23.282Z error: uncaughtException: token is not found
+Error: token is not found
+    at exports.isauthenticated (C:\Users\idea\OneDrive\e-learningmern\backend\middleware\auth.js:10:17)
+    at Layer.handle [as handle_request] (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:280:10)

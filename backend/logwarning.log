@@ -1114,3 +1114,57 @@
   },
   timestamp: '2024-04-03T18:09:24.397Z'
 }
+{
+  level: 'error',
+  message: 'GET /api/v1/course//getenrolluser/660b10da3198bb8a5b7b69da 500 21ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/course//getenrolluser/660b10da3198bb8a5b7b69da',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': '2faeb4f1-6c4e-4c31-b03b-2e358796ac1b',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/course//getenrolluser/660b10da3198bb8a5b7b69da',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 21
+    }
+  },
+  timestamp: '2024-04-03T18:53:16.283Z'
+}
+{
+  level: 'error',
+  message: 'GET /api/v1/course//getenrolluser/660b10da3198bb8a5b7b69da 500 3ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/course//getenrolluser/660b10da3198bb8a5b7b69da',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': '2120f536-dcb1-4bfd-b7eb-f548b4d45bfe',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/course//getenrolluser/660b10da3198bb8a5b7b69da',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 3
+    }
+  },
+  timestamp: '2024-04-03T18:53:23.283Z'
+}
