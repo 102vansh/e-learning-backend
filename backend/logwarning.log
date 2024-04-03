@@ -622,3 +622,495 @@
   },
   timestamp: '2024-04-02T14:12:55.158Z'
 }
+{
+  level: 'error',
+  message: 'POST /api/v1/course/enrolluser/660b10da3198bb8a5b7b69da 500 148ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/course/enrolluser/660b10da3198bb8a5b7b69da',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': '9392cf3a-f79e-4c6d-ac68-f5f6877d9a37',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          'content-length': '0'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/course/enrolluser/660b10da3198bb8a5b7b69da',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 148
+    }
+  },
+  timestamp: '2024-04-03T17:29:44.113Z'
+}
+{
+  level: 'error',
+  message: 'POST /api/v1/user/login 500 10465ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/user/login',
+        headers: {
+          'content-type': 'application/json',
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': '9e432e26-1720-4dbc-9257-45387cd629be',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          'content-length': '94'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/user/login',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 10465
+    }
+  },
+  timestamp: '2024-04-03T17:30:18.836Z'
+}
+{
+  level: 'error',
+  message: 'POST /api/v1/user/register 500 10063ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/user/register',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': '566786e3-f20b-4bf2-b75a-53fd1b660c69',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          'content-type': 'multipart/form-data; boundary=--------------------------291351079031522994117858',
+          'content-length': '164757'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/user/register',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 10063
+    }
+  },
+  timestamp: '2024-04-03T17:30:47.527Z'
+}
+{
+  level: 'warn',
+  message: 'POST /api/v1/course/enrolluser/660b10da3198bb8a5b7b69da 400 35ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/course/enrolluser/660b10da3198bb8a5b7b69da',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': '271200cb-9cf0-4e3b-b348-246057c44aae',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          cookie: 'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGFlNjNhMzliZTk1NGY1NDliYjFkOSIsImlhdCI6MTcxMjE2NTYxNywiZXhwIjoxNzEyNzcwNDE3fQ.h3wBqAej1Z2Wc_Ucf3ZTBeC-_YI_GPL-VfHikZIMlhY',
+          'content-length': '0'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/course/enrolluser/660b10da3198bb8a5b7b69da',
+        query: {}
+      },
+      res: { statusCode: 400 },
+      responseTime: 35
+    }
+  },
+  timestamp: '2024-04-03T17:33:52.763Z'
+}
+{
+  level: 'warn',
+  message: 'POST /api/v1/course/enrolluser/660ae63a39be954f549bb1d9 404 17ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/course/enrolluser/660ae63a39be954f549bb1d9',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': 'c2c989ad-ee10-430c-ac79-83adf9c5b295',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          cookie: 'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGFlNjNhMzliZTk1NGY1NDliYjFkOSIsImlhdCI6MTcxMjE2NTYxNywiZXhwIjoxNzEyNzcwNDE3fQ.h3wBqAej1Z2Wc_Ucf3ZTBeC-_YI_GPL-VfHikZIMlhY',
+          'content-length': '0'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/course/enrolluser/660ae63a39be954f549bb1d9',
+        query: {}
+      },
+      res: { statusCode: 404 },
+      responseTime: 17
+    }
+  },
+  timestamp: '2024-04-03T17:34:47.059Z'
+}
+{
+  level: 'warn',
+  message: 'POST /api/v1/course/enrolluser/660bb44d8e708a43b8a9357d 404 38ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/course/enrolluser/660bb44d8e708a43b8a9357d',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': '3b0ebe39-5c7c-4786-9cb5-2e67aa17af25',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          cookie: 'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGFlNjNhMzliZTk1NGY1NDliYjFkOSIsImlhdCI6MTcxMjE2NTYxNywiZXhwIjoxNzEyNzcwNDE3fQ.h3wBqAej1Z2Wc_Ucf3ZTBeC-_YI_GPL-VfHikZIMlhY',
+          'content-length': '0'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/course/enrolluser/660bb44d8e708a43b8a9357d',
+        query: {}
+      },
+      res: { statusCode: 404 },
+      responseTime: 38
+    }
+  },
+  timestamp: '2024-04-03T17:35:37.877Z'
+}
+{
+  level: 'warn',
+  message: 'POST /api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b 404 54ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': 'b3cd4ae0-d5e8-4c70-87f3-57e84de6c24f',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          cookie: 'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGFlNjNhMzliZTk1NGY1NDliYjFkOSIsImlhdCI6MTcxMjE2NTYxNywiZXhwIjoxNzEyNzcwNDE3fQ.h3wBqAej1Z2Wc_Ucf3ZTBeC-_YI_GPL-VfHikZIMlhY',
+          'content-length': '0'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        query: {}
+      },
+      res: { statusCode: 404 },
+      responseTime: 54
+    }
+  },
+  timestamp: '2024-04-03T17:38:07.540Z'
+}
+{
+  level: 'warn',
+  message: 'POST /api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b 404 67ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': '93b3c96c-156c-49a4-b86d-bd740f63ba16',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          cookie: 'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGFlNjNhMzliZTk1NGY1NDliYjFkOSIsImlhdCI6MTcxMjE2NTYxNywiZXhwIjoxNzEyNzcwNDE3fQ.h3wBqAej1Z2Wc_Ucf3ZTBeC-_YI_GPL-VfHikZIMlhY',
+          'content-length': '0'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        query: {}
+      },
+      res: { statusCode: 404 },
+      responseTime: 67
+    }
+  },
+  timestamp: '2024-04-03T17:40:27.677Z'
+}
+{
+  level: 'warn',
+  message: 'POST /api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b 404 106ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': '62ea5e2e-fa9a-49f9-8d28-0da8712742bc',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          cookie: 'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGFlNjNhMzliZTk1NGY1NDliYjFkOSIsImlhdCI6MTcxMjE2NTYxNywiZXhwIjoxNzEyNzcwNDE3fQ.h3wBqAej1Z2Wc_Ucf3ZTBeC-_YI_GPL-VfHikZIMlhY',
+          'content-length': '0'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        query: {}
+      },
+      res: { statusCode: 404 },
+      responseTime: 106
+    }
+  },
+  timestamp: '2024-04-03T17:46:32.038Z'
+}
+{
+  level: 'warn',
+  message: 'POST /api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b 404 23ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': 'aea1b50e-8ecb-4755-a9b9-6cde55ea0de9',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          cookie: 'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGFlNjNhMzliZTk1NGY1NDliYjFkOSIsImlhdCI6MTcxMjE2NTYxNywiZXhwIjoxNzEyNzcwNDE3fQ.h3wBqAej1Z2Wc_Ucf3ZTBeC-_YI_GPL-VfHikZIMlhY',
+          'content-length': '0'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        query: {}
+      },
+      res: { statusCode: 404 },
+      responseTime: 23
+    }
+  },
+  timestamp: '2024-04-03T17:46:39.164Z'
+}
+{
+  level: 'error',
+  message: 'POST /api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b 500 73ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': '68226a76-4369-4ed0-bc19-faa8804ca5a7',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          cookie: 'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGFlNjNhMzliZTk1NGY1NDliYjFkOSIsImlhdCI6MTcxMjE2NTYxNywiZXhwIjoxNzEyNzcwNDE3fQ.h3wBqAej1Z2Wc_Ucf3ZTBeC-_YI_GPL-VfHikZIMlhY',
+          'content-length': '0'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 73
+    }
+  },
+  timestamp: '2024-04-03T17:50:02.759Z'
+}
+{
+  level: 'warn',
+  message: 'POST /api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b 400 1026ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': '81e405b5-8587-4fe1-91d1-d2aa08255938',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          cookie: 'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGFlNjNhMzliZTk1NGY1NDliYjFkOSIsImlhdCI6MTcxMjE2NTYxNywiZXhwIjoxNzEyNzcwNDE3fQ.h3wBqAej1Z2Wc_Ucf3ZTBeC-_YI_GPL-VfHikZIMlhY',
+          'content-length': '0'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        query: {}
+      },
+      res: { statusCode: 400 },
+      responseTime: 1026
+    }
+  },
+  timestamp: '2024-04-03T17:54:11.134Z'
+}
+{
+  level: 'warn',
+  message: 'POST /api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b 400 852ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': '6e7c68d9-e22a-45e1-bdb1-869e35c91613',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          cookie: 'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGFlNjNhMzliZTk1NGY1NDliYjFkOSIsImlhdCI6MTcxMjE2NTYxNywiZXhwIjoxNzEyNzcwNDE3fQ.h3wBqAej1Z2Wc_Ucf3ZTBeC-_YI_GPL-VfHikZIMlhY',
+          'content-length': '0'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        query: {}
+      },
+      res: { statusCode: 400 },
+      responseTime: 852
+    }
+  },
+  timestamp: '2024-04-03T17:55:17.671Z'
+}
+{
+  level: 'error',
+  message: 'POST /api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b 500 76ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': '4975fee9-4ff7-41ea-9166-80a092a57c7b',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          cookie: 'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGFlNjNhMzliZTk1NGY1NDliYjFkOSIsImlhdCI6MTcxMjE2NTYxNywiZXhwIjoxNzEyNzcwNDE3fQ.h3wBqAej1Z2Wc_Ucf3ZTBeC-_YI_GPL-VfHikZIMlhY',
+          'content-length': '0'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 76
+    }
+  },
+  timestamp: '2024-04-03T18:00:43.751Z'
+}
+{
+  level: 'error',
+  message: 'POST /api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b 500 90ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': 'ea5f05ac-e405-477c-938b-4d62414acdec',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          cookie: 'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGFlNjNhMzliZTk1NGY1NDliYjFkOSIsImlhdCI6MTcxMjE2NTYxNywiZXhwIjoxNzEyNzcwNDE3fQ.h3wBqAej1Z2Wc_Ucf3ZTBeC-_YI_GPL-VfHikZIMlhY',
+          'content-length': '0'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 90
+    }
+  },
+  timestamp: '2024-04-03T18:03:34.408Z'
+}
+{
+  level: 'error',
+  message: 'POST /api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b 500 54ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': 'baf854c5-9002-4c67-80c2-2aa5896e9afb',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          cookie: 'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGFlNjNhMzliZTk1NGY1NDliYjFkOSIsImlhdCI6MTcxMjE2NTYxNywiZXhwIjoxNzEyNzcwNDE3fQ.h3wBqAej1Z2Wc_Ucf3ZTBeC-_YI_GPL-VfHikZIMlhY',
+          'content-length': '0'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 54
+    }
+  },
+  timestamp: '2024-04-03T18:05:17.260Z'
+}
+{
+  level: 'warn',
+  message: 'POST /api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b 400 66ms',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.37.0',
+          accept: '*/*',
+          'cache-control': 'no-cache',
+          'postman-token': '3999b210-c748-4d62-b1f8-054241d60b7d',
+          host: 'localhost:8080',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          cookie: 'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGFlNjNhMzliZTk1NGY1NDliYjFkOSIsImlhdCI6MTcxMjE2NTYxNywiZXhwIjoxNzEyNzcwNDE3fQ.h3wBqAej1Z2Wc_Ucf3ZTBeC-_YI_GPL-VfHikZIMlhY',
+          'content-length': '0'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/v1/course/enrolluser/660b2f7aab0e87e1eaf1ff7b',
+        query: {}
+      },
+      res: { statusCode: 400 },
+      responseTime: 66
+    }
+  },
+  timestamp: '2024-04-03T18:09:24.397Z'
+}

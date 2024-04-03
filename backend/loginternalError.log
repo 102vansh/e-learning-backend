@@ -95,3 +95,137 @@ TypeError: Cannot destructure property 'avatar' of 'req.files[0]' as it is undef
 ReferenceError: viedeos is not defined
     at exports.addlecture (C:\Users\idea\OneDrive\e-learningmern\backend\controller\course.controller.js:108:41)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-03T17:29:44.068Z error: uncaughtException: token is not found
+Error: token is not found
+    at exports.isauthenticated (C:\Users\idea\OneDrive\e-learningmern\backend\middleware\auth.js:10:17)
+    at Layer.handle [as handle_request] (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\express\lib\router\index.js:280:10)
+2024-04-03T17:30:18.829Z error: uncaughtException: Operation `users.findOne()` buffering timed out after 10000ms
+MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2024-04-03T17:30:47.521Z error: uncaughtException: Operation `users.findOne()` buffering timed out after 10000ms
+MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2024-04-03T17:35:37.872Z error: uncaughtException: Cast to ObjectId failed for value "{
+  userId: new ObjectId('660ae63a39be954f549bb1d9'),
+  name: 'abhijain',
+  email: '102vansh@gmail.com'
+}" (type Object) at path "enrolledUsers" because of "BSONError"
+CastError: Cast to ObjectId failed for value "{
+  userId: new ObjectId('660ae63a39be954f549bb1d9'),
+  name: 'abhijain',
+  email: '102vansh@gmail.com'
+}" (type Object) at path "enrolledUsers" because of "BSONError"
+    at SchemaObjectId.cast (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaType.applySetters (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\schemaType.js:1221:12)
+    at Proxy._cast (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\types\array\methods\index.js:250:43)
+    at Proxy._mapCast (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\types\array\methods\index.js:263:17)
+    at Arguments.map (<anonymous>)
+    at Proxy.push (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\types\array\methods\index.js:692:21)
+    at exports.enrollCourse (C:\Users\idea\OneDrive\e-learningmern\backend\controller\course.controller.js:192:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-03T17:38:07.536Z error: uncaughtException: Cast to ObjectId failed for value "{
+  userId: new ObjectId('660ae63a39be954f549bb1d9'),
+  name: 'abhijain',
+  email: '102vansh@gmail.com'
+}" (type Object) at path "enrolledUsers" because of "BSONError"
+CastError: Cast to ObjectId failed for value "{
+  userId: new ObjectId('660ae63a39be954f549bb1d9'),
+  name: 'abhijain',
+  email: '102vansh@gmail.com'
+}" (type Object) at path "enrolledUsers" because of "BSONError"
+    at SchemaObjectId.cast (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaType.applySetters (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\schemaType.js:1221:12)
+    at Proxy._cast (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\types\array\methods\index.js:250:43)
+    at Proxy._mapCast (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\types\array\methods\index.js:263:17)
+    at Arguments.map (<anonymous>)
+    at Proxy.push (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\types\array\methods\index.js:692:21)
+    at exports.enrollCourse (C:\Users\idea\OneDrive\e-learningmern\backend\controller\course.controller.js:192:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-03T17:40:27.671Z error: uncaughtException: Cast to ObjectId failed for value "{
+  userId: new ObjectId('660ae63a39be954f549bb1d9'),
+  name: 'abhijain',
+  email: '102vansh@gmail.com'
+}" (type Object) at path "enrolledUsers" because of "BSONError"
+CastError: Cast to ObjectId failed for value "{
+  userId: new ObjectId('660ae63a39be954f549bb1d9'),
+  name: 'abhijain',
+  email: '102vansh@gmail.com'
+}" (type Object) at path "enrolledUsers" because of "BSONError"
+    at SchemaObjectId.cast (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaType.applySetters (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\schemaType.js:1221:12)
+    at Proxy._cast (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\types\array\methods\index.js:250:43)
+    at Proxy._mapCast (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\types\array\methods\index.js:263:17)
+    at Arguments.map (<anonymous>)
+    at Proxy.push (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\types\array\methods\index.js:692:21)
+    at exports.enrollCourse (C:\Users\idea\OneDrive\e-learningmern\backend\controller\course.controller.js:192:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-03T17:46:32.027Z error: uncaughtException: Cast to ObjectId failed for value "{
+  userId: new ObjectId('660ae63a39be954f549bb1d9'),
+  name: 'abhijain',
+  email: '102vansh@gmail.com'
+}" (type Object) at path "enrolledUsers" because of "BSONError"
+CastError: Cast to ObjectId failed for value "{
+  userId: new ObjectId('660ae63a39be954f549bb1d9'),
+  name: 'abhijain',
+  email: '102vansh@gmail.com'
+}" (type Object) at path "enrolledUsers" because of "BSONError"
+    at SchemaObjectId.cast (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaType.applySetters (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\schemaType.js:1221:12)
+    at Proxy._cast (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\types\array\methods\index.js:250:43)
+    at Proxy._mapCast (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\types\array\methods\index.js:263:17)
+    at Arguments.map (<anonymous>)
+    at Proxy.push (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\types\array\methods\index.js:692:21)
+    at exports.enrollCourse (C:\Users\idea\OneDrive\e-learningmern\backend\controller\course.controller.js:192:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-03T17:46:39.161Z error: uncaughtException: Cast to ObjectId failed for value "{
+  userId: new ObjectId('660ae63a39be954f549bb1d9'),
+  name: 'abhijain',
+  email: '102vansh@gmail.com'
+}" (type Object) at path "enrolledUsers" because of "BSONError"
+CastError: Cast to ObjectId failed for value "{
+  userId: new ObjectId('660ae63a39be954f549bb1d9'),
+  name: 'abhijain',
+  email: '102vansh@gmail.com'
+}" (type Object) at path "enrolledUsers" because of "BSONError"
+    at SchemaObjectId.cast (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaType.applySetters (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\schemaType.js:1221:12)
+    at Proxy._cast (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\types\array\methods\index.js:250:43)
+    at Proxy._mapCast (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\types\array\methods\index.js:263:17)
+    at Arguments.map (<anonymous>)
+    at Proxy.push (C:\Users\idea\OneDrive\e-learningmern\backend\node_modules\mongoose\lib\types\array\methods\index.js:692:21)
+    at exports.enrollCourse (C:\Users\idea\OneDrive\e-learningmern\backend\controller\course.controller.js:192:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-03T17:50:02.752Z error: uncaughtException: resend is not defined
+ReferenceError: resend is not defined
+    at exports.enrollCourse (C:\Users\idea\OneDrive\e-learningmern\backend\controller\course.controller.js:196:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-03T18:00:43.738Z error: uncaughtException: Cannot read properties of undefined (reading 'equals')
+TypeError: Cannot read properties of undefined (reading 'equals')
+    at C:\Users\idea\OneDrive\e-learningmern\backend\controller\course.controller.js:190:61
+    at Proxy.some (<anonymous>)
+    at exports.enrollCourse (C:\Users\idea\OneDrive\e-learningmern\backend\controller\course.controller.js:190:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-03T18:03:34.391Z error: uncaughtException: Cannot read properties of undefined (reading 'equals')
+TypeError: Cannot read properties of undefined (reading 'equals')
+    at C:\Users\idea\OneDrive\e-learningmern\backend\controller\course.controller.js:190:61
+    at Proxy.some (<anonymous>)
+    at exports.enrollCourse (C:\Users\idea\OneDrive\e-learningmern\backend\controller\course.controller.js:190:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-03T18:05:17.249Z error: uncaughtException: Cannot read properties of undefined (reading 'includes')
+TypeError: Cannot read properties of undefined (reading 'includes')
+    at C:\Users\idea\OneDrive\e-learningmern\backend\controller\course.controller.js:190:61
+    at Proxy.some (<anonymous>)
+    at exports.enrollCourse (C:\Users\idea\OneDrive\e-learningmern\backend\controller\course.controller.js:190:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

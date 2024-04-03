@@ -44,9 +44,20 @@ const courseSchema = new mongoose.Schema({
         type:String,
         enum:['hard','medium','easy']
     },
-    enrolledUsers: [{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "User"
+      
+      enrolledUsers: [{
+        user: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "User",
+        },
+        name: {
+            type: String
+        },
+        email: {
+            type: String
+        }
     }]
+    
+
 },{timestamps:true})
 module.exports = mongoose.model('Course',courseSchema)

@@ -1,5 +1,7 @@
 const Course = require('../models/course.model')
 const {ErrorHandler} = require('../middleware/error')
+const {Resend} = require('resend')
+const resend = new Resend(process.env.RESEND_SECRET)
 
 // admin will createcourse
 exports.createcourse = async(req,res,next)=>{
@@ -173,7 +175,10 @@ exports.deleteLecture = async (req, res, next) => {
 exports.enrollCourse = async (req, res, next) => {
     try {
         const courseId = req.params.courseId;
-        const userId = req.user._id; // Assuming user ID is available in req.user
+        const userId = req.user._id; //  user ID is available in req.user
+        const name = req.user.name;
+        const email = req.user.email;
+
 
         const course = await Course.findById(courseId);
         if (!course) {
@@ -181,18 +186,29 @@ exports.enrollCourse = async (req, res, next) => {
         }
 
         // Check if user is already enrolled
-        if (course.enrolledUsers.includes(userId)) {
+        const alreadyenroll = await Course.findOne({ _id: courseId, 'enrolledUsers.user': userId });
+        if (!alreadyenroll) {
             return res.status(400).json({ success: false, message: "User is already enrolled in this course" });
         }
+    
+// if (course.enrolledUsers.some(enrollment => enrollment.user.includes(userId))) {
+//     return res.status(400).json({ success: false, message: "User is already enrolled in this course" });
+// }
+
+console.log('userId:', userId);
+console.log('course:', course);
+console.log('enrolledUsers:', course.enrolledUsers);
 
         // Add user to enrolledUsers array
-        course.enrolledUsers.push(userId);
+        course.enrolledUsers.push({userId,name,email});
         await course.save();
+
+
         const { data, error } = await resend.emails.send({
             from: "onboarding@resend.dev",
-            to: '0201it211102',// here email will come from user 
-            subject: " You are registered succesfully",
-            html: "<strong>it works!</strong>",
+            to: '0201it211102@gmail.com',// here email will come from user 
+            subject: " Course Enrolled",
+            html: "<strong> You are Enrolled in this course successfully</strong>",
           });
         
           if (error) {

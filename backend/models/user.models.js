@@ -12,7 +12,8 @@ const userSchema = new mongoose.Schema({
         type:String,
         required:true,
         unique:true,
-        validate:[validator.isEmail,"Enter correct email type"]
+        validate:[validator.isEmail,"Enter correct email type"],
+        minlength: [5, "Email must be at least 5 characters long"],
 
     },
     password:{
